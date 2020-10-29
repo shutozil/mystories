@@ -29,8 +29,15 @@
       h1 {
         font-weight: bold;
         font-size: 2.875em;
-        font-weight: normal;
+        /* font-weight: normal; */
         line-height: 1.174;
+      }
+      h3 {
+        font-weight: bold;
+        font-size: 1.5em;
+        /* line-height: 1.174; */
+        padding-top: 10px;
+        padding-bottom: 2.5px;
       }
       p {
         font-weight: normal;
@@ -64,6 +71,10 @@
         background-color: #000;
         line-height: 2em;
       }
+      .secondary {
+        color:#455A64;
+      }
+
     </style>
   </head>
   <body>
@@ -81,6 +92,91 @@
           <p class="text-cover">ShutoInoue</p>
         </amp-story-grid-layer>
       </amp-story-page>
+
+      <!-- skill-cover -->
+      <amp-story-page id="skill-cover">
+        <amp-story-grid-layer template="thirds">
+          <!-- svg と アニメーション -->
+          <div grid-area="middle-third" class="banner-text">
+            <amp-img src="/assets/skill.svg" height="100" width="300" layout="responsive" animate-in="twirl-in"></amp-img>
+          </div>
+          <div grid-area="lower-third" animate-in="fade-in" animate-in-duration="3s">
+            <p>Language & FrameWork</p>
+            <p>Google</p>
+            <p>AWS</p>
+            <p>Other</p>
+          </div>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+      <!-- skill-lang -->
+      <amp-story-page id="skill-lang">
+        <amp-story-grid-layer template="thirds">
+          <h2 grid-area="upper-third">SKILL - Lang</h2>
+          <div grid-area="middle-third" animate-in="fade-in" animate-in-duration="3s">
+            <h3>Language</h3>
+            <p>Ruby / Python / JavaScript</p>
+            <br>
+            <h3>FrameWork</h3>
+            <p>Ruby on Rails / Django / Vue.js / Nuxt.js / Vuetify</p>
+          </div>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+      <!-- skill-google -->
+      <amp-story-page id="skill-google">
+        <amp-story-grid-layer template="vertical">
+          <h2 >SKILL - Google</h2>
+          <div animate-in="fade-in" animate-in-duration="3s">
+            <h3>Firebase</h3>
+            <p>Firebase Hosting / Firebase Cloud Functions / Firebase Authentication / Firebase Admin SDK</p>
+            <p class="secondary">Cloud Firestore / CloudStorage</p>
+            <!-- https://firebase.google.com/docs/admin/setup?hl=ja -->
+            <h3>GCP</h3>
+            <p>Cloud Run / Container Registry / Cloud Functions / PageSpeed Insights API /YouTube Data API v3 / Google Analytics API </p>
+            <!-- psi -->
+            <!-- https://developers.google.com/speed/docs/insights/v4/reference?hl=ja -->
+            <!-- https://developers.google.com/speed/docs/insights/about?hl=ja -->
+            <!-- youtube -->
+            <!-- https://developers.google.com/youtube/?hl=ja -->
+            <h3>Other</h3>
+            <p>Google Search Console APIs</p>
+            <!-- https://developers.google.com/webmaster-tools/search-console-api-original/v3/searchanalytics -->
+          </div>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+      <!-- skill-aws -->
+      <amp-story-page id="skill-aws">
+        <amp-story-grid-layer template="thirds">
+          <h2 grid-area="upper-third">SKILL - AWS</h2>
+          <div grid-area="middle-third" animate-in="fade-in" animate-in-duration="3s">
+            <p>CDK / EC2 / CodeDeploy / Route53</p>
+            <p class="secondary">RDS / CloudWatch / S3 / CloudFront / ElastiCache / AWS Systems Manager(Parameter Store / Session Manager) / Cloud9 </p>
+          </div>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+      <!-- skill-other -->
+      <amp-story-page id="skill-other">
+        <amp-story-grid-layer template="thirds">
+          <h2 grid-area="upper-third">SKILL - Other</h2>
+          <div grid-area="middle-third" animate-in="fade-in" animate-in-duration="3s">
+            <p>github / gitlab / Docker / docker-compose / vscode Remote Containers</p>
+            <p class="secondary">mysql5.6 / mysql5.7 / nginx</p>
+          </div>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+      <!-- carrer -->
+      <!-- 画像説明が使えるのお -->
+      <!-- wp -> RailsのCMSとNuxt x Vuetify x Cloud Run  -->
+      <!-- 社内ツール -->
+      <!-- Django APIたち -->
+      <!-- 個人的な開発 -->
+      <!-- AWS等 -->
+
+
 
       <amp-story-bookend src="bookend.json" layout="nodisplay"></amp-story-bookend>
     </amp-story>
