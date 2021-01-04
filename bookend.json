@@ -7,7 +7,35 @@
   "components": [
     {
       "type": "heading",
-      "text": "Hello World!"
+      "text": "product"
+    },
+    {
+      "type": "landscape",
+      "title": "theheadline",
+      "url": "https://www.theheadline.jp",
+      "image": "https://d2bz98p2lfzf5b.cloudfront.net/artaW8AFGy6e1GrFUnJivtxX"
+    },
+    {
+      "type": "heading",
+      "text": "other"
+    },
+    {
+      "type": "small",
+      "title": "twitter",
+      "url": "https://twitter.com/applestarsenal",
+      "image": "/assets/Twitter_Social_Icon_Square_Color.png"
+    },
+    {
+      "type": "small",
+      "title": "github",
+      "url": "https://github.com/shutozil/",
+      "image": "/assets/Octocat.jpg"
+    },
+    {
+      "type": "small",
+      "title": "note",
+      "url": "https://note.com/shutoinoue",
+      "image": "https://d109okedkig5mv.cloudfront.net/assets/eyecatch/default-b304ab5b45ef835150cc433fe12c2a70278fe57b41338c46070d9e2308ab7134.png"
     }
   ]
 }
